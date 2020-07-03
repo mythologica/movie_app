@@ -9,7 +9,6 @@ class Detail extends React.Component {
   }
 
   render() {
-    console.log("Detail.props", this.props);
     const { location } = this.props;
     
     if(location.state){
